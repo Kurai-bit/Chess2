@@ -1,0 +1,76 @@
+body{
+    background-color: #160b1d;
+    display: flex;
+    flex-direction: column;
+
+}
+.black-box{
+    //background-color: gray;
+    background-color: #5b4d3d;
+}
+.white-box{
+    background-color:  #FFFDD0 ;
+}
+.chess-box{
+    //flex: 1 0 12.5%;
+    width: 10vh;
+    height: 10vh;
+}
+.main{
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80vh;
+    height: 80vh;
+    border: 1px solid black;
+}
+.piesa{
+    width: 100%;
+    height: 100%;
+}
+.piece-ready{
+    box-shadow: inset 0 0 20px #00ff00 ;
+}
+.potential{
+    background-image: url("../img/blue-circle-svgrepo-com.svg");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.beat{
+    //background-image: radial-gradient(red, #130101);
+    box-shadow: inset 0 0 20px #ff0000 ;
+}
+.startGame,.loadLast{
+    background-color: #d3c2b1;
+    border-radius: 10px;
+    margin: 10px auto;
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+}
+#a8{
+    border-top-left-radius: 20px;
+}
+#h8{
+    border-top-right-radius: 20px;
+}
+#a1{
+    border-bottom-left-radius: 20px;
+}
+#h1{
+    border-bottom-right-radius: 20px;
+}
+.input{
+    margin: 40vh auto 10px;
+    width: 15%;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+}
+.containerButtons{
+    display: flex;
+    flex-direction: column;
+}
